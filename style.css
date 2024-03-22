@@ -1,0 +1,2842 @@
+.logistics-manager {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .logistics-manager .overlap-wrapper {
+    background-color: #f6f6f6;
+    width: 1440px;
+    height: 954px;
+  }
+  
+  .logistics-manager .overlap {
+    position: relative;
+    height: 1027px;
+  }
+  
+  .logistics-manager .group {
+    position: absolute;
+    width: 379px;
+    height: 42px;
+    top: 579px;
+    left: 1020px;
+  }
+  
+  .logistics-manager .div {
+    position: relative;
+    height: 42px;
+  }
+  
+  .logistics-manager .group-wrapper {
+    position: absolute;
+    width: 90px;
+    height: 42px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .overlap-group-wrapper {
+    width: 92px;
+    height: 42px;
+  }
+  
+  .logistics-manager .overlap-group {
+    position: relative;
+    width: 90px;
+    height: 42px;
+    background-color: #0238ff;
+    border-radius: 5px;
+  }
+  
+  .logistics-manager .text-wrapper {
+    position: absolute;
+    width: 41px;
+    top: 11px;
+    left: 26px;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .div-wrapper {
+    position: absolute;
+    width: 92px;
+    height: 42px;
+    top: 0;
+    left: 96px;
+  }
+  
+  .logistics-manager .overlap-group-2 {
+    position: relative;
+    width: 90px;
+    height: 42px;
+    background-color: #cdcdcd;
+    border-radius: 5px;
+  }
+  
+  .logistics-manager .text-wrapper-2 {
+    position: absolute;
+    width: 56px;
+    top: 11px;
+    left: 17px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #333333;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-2 {
+    position: absolute;
+    width: 92px;
+    height: 42px;
+    top: 0;
+    left: 193px;
+  }
+  
+  .logistics-manager .text-wrapper-3 {
+    position: absolute;
+    width: 66px;
+    top: 11px;
+    left: 14px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #333333;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-3 {
+    position: absolute;
+    width: 90px;
+    height: 42px;
+    top: 0;
+    left: 289px;
+  }
+  
+  .logistics-manager .text-wrapper-4 {
+    position: absolute;
+    width: 51px;
+    top: 12px;
+    left: 21px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #333333;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .overlap-2 {
+    position: absolute;
+    width: 1440px;
+    height: 1027px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 66px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: var(--d-1);
+  }
+  
+  .logistics-manager .text-wrapper-5 {
+    position: absolute;
+    top: 18px;
+    left: 136px;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #292d32;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .component {
+    position: absolute;
+    width: 91px;
+    height: 1027px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .overlap-3 {
+    position: relative;
+    width: 174px;
+    height: 1003px;
+    top: -30px;
+    left: -50px;
+  }
+  
+  .logistics-manager .rectangle-2 {
+    position: absolute;
+    width: 25px;
+    height: 33px;
+    top: 57px;
+    left: 124px;
+    background-color: var(--primary-color);
+    border-radius: 0px 2px 2px 0px;
+    box-shadow: var(--drop);
+  }
+  
+  .logistics-manager .img {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 65px;
+    left: 128px;
+  }
+  
+  .logistics-manager .union {
+    position: absolute;
+    width: 174px;
+    height: 1003px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .logo {
+    position: absolute;
+    width: 33px;
+    height: 47px;
+    top: 49px;
+    left: 72px;
+    background-image: url(./img/logo-blue-1.png);
+    background-size: 100% 100%;
+  }
+  
+  .logistics-manager .group-4 {
+    position: absolute;
+    width: 47px;
+    height: 787px;
+    top: 119px;
+    left: 63px;
+  }
+  
+  .logistics-manager .overlap-4 {
+    position: relative;
+    height: 787px;
+  }
+  
+  .logistics-manager .rectangle-3 {
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    top: 56px;
+    left: 0;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    box-shadow: 0px 8px 12px #8690e84c;
+  }
+  
+  .logistics-manager .frame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+  }
+  
+  .logistics-manager .group-5 {
+    position: relative;
+    width: 24.39px;
+    height: 24px;
+  }
+  
+  .logistics-manager .vuesax-linear-user {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .logistics-manager .products {
+    position: relative;
+    width: 24px;
+    height: 26.61px;
+  }
+  
+  .logistics-manager .overlap-group-3 {
+    position: relative;
+    height: 27px;
+  }
+  
+  .logistics-manager .vuesax-linear {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 1px;
+    left: 0;
+  }
+  
+  .logistics-manager .group-6 {
+    position: absolute;
+    width: 24px;
+    height: 27px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .group-7 {
+    position: relative;
+    width: 27px;
+    height: 18.5px;
+  }
+  
+  .logistics-manager .overlap-5 {
+    position: relative;
+    width: 28px;
+    height: 19px;
+  }
+  
+  .logistics-manager .group-8 {
+    position: absolute;
+    width: 22px;
+    height: 14px;
+    top: 5px;
+    left: 6px;
+  }
+  
+  .logistics-manager .subtract {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    top: 0;
+    left: 4px;
+  }
+  
+  .logistics-manager .vector {
+    position: absolute;
+    width: 8px;
+    height: 1px;
+    top: 4px;
+    left: 1px;
+  }
+  
+  .logistics-manager .vector-2 {
+    position: absolute;
+    width: 9px;
+    height: 1px;
+    top: 6px;
+    left: 0;
+  }
+  
+  .logistics-manager .vector-3 {
+    position: absolute;
+    width: 6px;
+    height: 1px;
+    top: 8px;
+    left: 2px;
+  }
+  
+  .logistics-manager .orders {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/routing-2.svg);
+    background-size: 100% 100%;
+  }
+  
+  .logistics-manager .vuesax-linear-user-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/user-square.png);
+    background-size: 100% 100%;
+  }
+  
+  .logistics-manager .union-2 {
+    position: absolute;
+    width: 8px;
+    height: 7px;
+    top: 8px;
+    left: 8px;
+  }
+  
+  .logistics-manager .rectangle-4 {
+    position: absolute;
+    width: 1px;
+    height: 5px;
+    top: 17px;
+    left: 12px;
+    background-color: #292d32;
+  }
+  
+  .logistics-manager .group-9 {
+    position: relative;
+    width: 23.5px;
+    height: 19.5px;
+  }
+  
+  .logistics-manager .group-10 {
+    position: relative;
+    width: 23.85px;
+    height: 25.5px;
+  }
+  
+  .logistics-manager .overlap-6 {
+    position: relative;
+    width: 25px;
+    height: 26px;
+  }
+  
+  .logistics-manager .vector-4 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 10px;
+    left: 11px;
+  }
+  
+  .logistics-manager .subtract-2 {
+    width: 21px;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .vector-5 {
+    position: absolute;
+    width: 9px;
+    height: 2px;
+    top: 8px;
+    left: 4px;
+  }
+  
+  .logistics-manager .group-11 {
+    position: relative;
+    width: 28.2px;
+    height: 30.23px;
+    margin-left: -0.1px;
+    margin-right: -0.1px;
+  }
+  
+  .logistics-manager .products-2 {
+    position: relative;
+    width: 24px;
+    height: 27.28px;
+  }
+  
+  .logistics-manager .overlap-7 {
+    position: relative;
+    width: 24px;
+    height: 27px;
+  }
+  
+  .logistics-manager .vuesax-linear-2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 2px;
+    left: 0;
+  }
+  
+  .logistics-manager .overlap-group-4 {
+    position: relative;
+    width: 25px;
+    height: 28px;
+  }
+  
+  .logistics-manager .group-12 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 16px;
+    left: 13px;
+  }
+  
+  .logistics-manager .subtract-3 {
+    width: 22px;
+    height: 27px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .vector-6 {
+    position: absolute;
+    width: 9px;
+    height: 2px;
+    top: 9px;
+    left: 4px;
+  }
+  
+  .logistics-manager .group-13 {
+    position: relative;
+    width: 24px;
+    height: 19px;
+  }
+  
+  .logistics-manager .analytics {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/note.svg);
+    background-size: 100% 100%;
+  }
+  
+  .logistics-manager .group-14 {
+    position: relative;
+    width: 19.5px;
+    height: 23.5px;
+    margin-bottom: -0.75px;
+  }
+  
+  .logistics-manager .side-menu {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 13px;
+    left: 1218px;
+  }
+  
+  .logistics-manager .group-15 {
+    position: relative;
+    width: 181px;
+    height: 42px;
+  }
+  
+  .logistics-manager .group-16 {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .group-17 {
+    position: absolute;
+    width: 132px;
+    height: 41px;
+    top: 0;
+    left: 53px;
+  }
+  
+  .logistics-manager .text-wrapper-6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    line-height: normal;
+  }
+  
+  .logistics-manager .component-2 {
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    top: 4px;
+    left: 70px;
+  }
+  
+  .logistics-manager .text-wrapper-7 {
+    position: absolute;
+    top: 22px;
+    left: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #8e8e8e;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-18 {
+    position: absolute;
+    width: 315px;
+    height: 110px;
+    top: 95px;
+    left: 756px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #d3d3d3;
+  }
+  
+  .logistics-manager .group-19 {
+    position: relative;
+    width: 261px;
+    height: 68px;
+    top: 17px;
+    left: 18px;
+  }
+  
+  .logistics-manager .text-wrapper-8 {
+    position: absolute;
+    width: 185px;
+    top: 45px;
+    left: 75px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #60656b;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-20 {
+    position: absolute;
+    width: 123px;
+    height: 45px;
+    top: 0;
+    left: 75px;
+  }
+  
+  .logistics-manager .text-wrapper-9 {
+    position: absolute;
+    width: 121px;
+    top: 0;
+    left: 0;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-21 {
+    position: absolute;
+    width: 60px;
+    height: 58px;
+    top: 5px;
+    left: 0;
+    background-color: #e3e6ff;
+    border-radius: 10px;
+  }
+  
+  .logistics-manager .group-22 {
+    position: absolute;
+    width: 45px;
+    height: 46px;
+    top: 7px;
+    left: 6px;
+  }
+  
+  .logistics-manager .overlap-8 {
+    position: absolute;
+    width: 315px;
+    height: 110px;
+    top: 220px;
+    left: 756px;
+    border-radius: 10px;
+  }
+  
+  .logistics-manager .group-23 {
+    position: absolute;
+    width: 315px;
+    height: 110px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #d3d3d3;
+  }
+  
+  .logistics-manager .group-24 {
+    width: 283px;
+    height: 68px;
+    left: 19px;
+    position: relative;
+    top: 17px;
+  }
+  
+  .logistics-manager .text-wrapper-10 {
+    position: absolute;
+    width: 200px;
+    top: 45px;
+    left: 81px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #60656b;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-25 {
+    position: absolute;
+    width: 116px;
+    height: 45px;
+    top: 0;
+    left: 81px;
+  }
+  
+  .logistics-manager .text-wrapper-11 {
+    position: absolute;
+    width: 114px;
+    top: 0;
+    left: 0;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-26 {
+    position: absolute;
+    width: 65px;
+    height: 58px;
+    top: 5px;
+    left: 0;
+    background-color: #e3e6ff;
+    border-radius: 10px;
+  }
+  
+  .logistics-manager .group-27 {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    top: 39px;
+    left: 38px;
+  }
+  
+  .logistics-manager .group-28 {
+    position: absolute;
+    width: 300px;
+    height: 110px;
+    top: 95px;
+    left: 438px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #d3d3d3;
+  }
+  
+  .logistics-manager .group-29 {
+    width: 209px;
+    height: 68px;
+    left: 18px;
+    position: relative;
+    top: 17px;
+  }
+  
+  .logistics-manager .text-wrapper-12 {
+    position: absolute;
+    width: 134px;
+    top: 45px;
+    left: 74px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #60656b;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-30 {
+    position: absolute;
+    width: 78px;
+    height: 45px;
+    top: 0;
+    left: 74px;
+  }
+  
+  .logistics-manager .text-wrapper-13 {
+    width: 76px;
+    top: 0;
+    left: 0;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 32px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-31 {
+    position: absolute;
+    width: 30px;
+    height: 27px;
+    top: 15px;
+    left: 15px;
+  }
+  
+  .logistics-manager .group-32 {
+    position: absolute;
+    width: 300px;
+    height: 110px;
+    top: 220px;
+    left: 438px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #d3d3d3;
+  }
+  
+  .logistics-manager .group-33 {
+    width: 245px;
+    height: 68px;
+    left: 19px;
+    position: relative;
+    top: 17px;
+  }
+  
+  .logistics-manager .overlap-group-5 {
+    position: absolute;
+    width: 167px;
+    height: 68px;
+    top: 0;
+    left: 76px;
+  }
+  
+  .logistics-manager .text-wrapper-14 {
+    position: absolute;
+    width: 167px;
+    top: 45px;
+    left: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #60656b;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-34 {
+    position: absolute;
+    width: 127px;
+    height: 46px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .text-wrapper-15 {
+    position: absolute;
+    width: 125px;
+    top: 0;
+    left: 0;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .img-wrapper {
+    position: absolute;
+    width: 62px;
+    height: 58px;
+    top: 5px;
+    left: 0;
+    background-color: #e3e6ff;
+    border-radius: 10px;
+  }
+  
+  .logistics-manager .group-35 {
+    position: absolute;
+    width: 33px;
+    height: 22px;
+    top: 19px;
+    left: 15px;
+  }
+  
+  .logistics-manager .overlap-9 {
+    position: absolute;
+    width: 300px;
+    height: 110px;
+    top: 95px;
+    left: 111px;
+    border-radius: 10px;
+  }
+  
+  .logistics-manager .group-36 {
+    position: absolute;
+    width: 300px;
+    height: 110px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #d3d3d3;
+  }
+  
+  .logistics-manager .group-37 {
+    width: 209px;
+    height: 69px;
+    left: 18px;
+    position: relative;
+    top: 17px;
+  }
+  
+  .logistics-manager .text-wrapper-16 {
+    position: absolute;
+    width: 134px;
+    top: 46px;
+    left: 74px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #60656b;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-38 {
+    position: absolute;
+    width: 63px;
+    height: 46px;
+    top: 0;
+    left: 74px;
+  }
+  
+  .logistics-manager .text-wrapper-17 {
+    width: 61px;
+    top: 0;
+    left: 0;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 32px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-39 {
+    position: absolute;
+    width: 25px;
+    height: 34px;
+    top: 38px;
+    left: 36px;
+  }
+  
+  .logistics-manager .group-40 {
+    position: absolute;
+    width: 300px;
+    height: 110px;
+    top: 220px;
+    left: 111px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #d3d3d3;
+  }
+  
+  .logistics-manager .group-41 {
+    width: 276px;
+    height: 68px;
+    left: 16px;
+    position: relative;
+    top: 17px;
+  }
+  
+  .logistics-manager .overlap-group-6 {
+    position: absolute;
+    width: 198px;
+    height: 68px;
+    top: 0;
+    left: 76px;
+  }
+  
+  .logistics-manager .text-wrapper-18 {
+    position: absolute;
+    width: 198px;
+    top: 45px;
+    left: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #60656b;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-42 {
+    position: absolute;
+    width: 65px;
+    height: 46px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .text-wrapper-19 {
+    width: 63px;
+    top: 0;
+    left: 0;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 32px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-43 {
+    position: absolute;
+    width: 31px;
+    height: 29px;
+    top: 16px;
+    left: 16px;
+  }
+  
+  .logistics-manager .overlap-10 {
+    position: absolute;
+    width: 960px;
+    height: 222px;
+    top: 345px;
+    left: 111px;
+    border-radius: 10px;
+  }
+  
+  .logistics-manager .union-3 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 31px;
+    left: 535px;
+    object-fit: cover;
+  }
+  
+  .logistics-manager .group-44 {
+    position: absolute;
+    width: 960px;
+    height: 222px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #d3d3d3;
+  }
+  
+  .logistics-manager .group-45 {
+    position: absolute;
+    width: 359px;
+    height: 22px;
+    top: 187px;
+    left: 578px;
+  }
+  
+  .logistics-manager .group-46 {
+    position: relative;
+    height: 22px;
+  }
+  
+  .logistics-manager .group-47 {
+    position: absolute;
+    width: 94px;
+    height: 22px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .group-48 {
+    position: relative;
+    width: 96px;
+    height: 22px;
+  }
+  
+  .logistics-manager .text-wrapper-20 {
+    position: absolute;
+    width: 65px;
+    top: 0;
+    left: 29px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--text-primary);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .rectangle-5 {
+    width: 20px;
+    height: 13px;
+    top: 5px;
+    background-color: #4169ff;
+    position: absolute;
+    left: 0;
+  }
+  
+  .logistics-manager .group-49 {
+    position: absolute;
+    width: 119px;
+    height: 22px;
+    top: 0;
+    left: 108px;
+  }
+  
+  .logistics-manager .text-wrapper-21 {
+    position: absolute;
+    width: 91px;
+    top: 0;
+    left: 27px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--text-primary);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .rectangle-6 {
+    width: 20px;
+    height: 13px;
+    top: 5px;
+    background-color: #feaa48;
+    position: absolute;
+    left: 0;
+  }
+  
+  .logistics-manager .group-50 {
+    position: absolute;
+    width: 122px;
+    height: 22px;
+    top: 0;
+    left: 239px;
+  }
+  
+  .logistics-manager .text-wrapper-22 {
+    position: absolute;
+    width: 92px;
+    top: 0;
+    left: 29px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--text-primary);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .rectangle-7 {
+    width: 20px;
+    height: 13px;
+    top: 4px;
+    background-color: #49c288;
+    position: absolute;
+    left: 0;
+  }
+  
+  .logistics-manager .overlap-11 {
+    position: absolute;
+    width: 884px;
+    height: 65px;
+    top: 16px;
+    left: 32px;
+  }
+  
+  .logistics-manager .overlap-12 {
+    position: absolute;
+    width: 884px;
+    height: 54px;
+    top: 11px;
+    left: 0;
+  }
+  
+  .logistics-manager .group-51 {
+    position: absolute;
+    width: 884px;
+    height: 28px;
+    top: 26px;
+    left: 0;
+  }
+  
+  .logistics-manager .div-2 {
+    position: absolute;
+    width: 776px;
+    height: 28px;
+    top: 0;
+    left: 107px;
+  }
+  
+  .logistics-manager .group-52 {
+    position: absolute;
+    width: 776px;
+    height: 14px;
+    top: 8px;
+    left: 0;
+  }
+  
+  .logistics-manager .overlap-group-7 {
+    position: relative;
+    height: 14px;
+  }
+  
+  .logistics-manager .rectangle-8 {
+    position: absolute;
+    width: 762px;
+    height: 14px;
+    top: 0;
+    left: 14px;
+    background-color: #e9eaeb;
+    border-radius: 10px;
+  }
+  
+  .logistics-manager .rectangle-9 {
+    position: absolute;
+    width: 125px;
+    height: 14px;
+    top: 0;
+    left: 0;
+    background-color: #4169ff;
+    border-radius: 10px 0px 0px 10px;
+  }
+  
+  .logistics-manager .vector-7 {
+    position: absolute;
+    width: 96px;
+    height: 14px;
+    top: 0;
+    left: 116px;
+  }
+  
+  .logistics-manager .vector-8 {
+    position: absolute;
+    width: 237px;
+    height: 14px;
+    top: 0;
+    left: 225px;
+  }
+  
+  .logistics-manager .group-53 {
+    position: absolute;
+    width: 29px;
+    height: 27px;
+    top: 0;
+    left: 102px;
+  }
+  
+  .logistics-manager .group-54 {
+    position: absolute;
+    width: 29px;
+    height: 27px;
+    top: 1px;
+    left: 201px;
+  }
+  
+  .logistics-manager .group-55 {
+    position: absolute;
+    width: 29px;
+    height: 27px;
+    top: 1px;
+    left: 448px;
+  }
+  
+  .logistics-manager .text-wrapper-23 {
+    position: absolute;
+    width: 90px;
+    top: 4px;
+    left: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #2b2b2b;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-56 {
+    position: absolute;
+    width: 130px;
+    height: 35px;
+    top: 0;
+    left: 257px;
+  }
+  
+  .logistics-manager .overlap-13 {
+    position: relative;
+    height: 35px;
+  }
+  
+  .logistics-manager .rectangle-10 {
+    position: absolute;
+    width: 130px;
+    height: 27px;
+    top: 0;
+    left: 0;
+    background-color: var(--collection-1-white);
+    border-radius: 3px;
+    box-shadow: 0px 2px 1.9px #0000001a;
+  }
+  
+  .logistics-manager .polygon {
+    position: absolute;
+    width: 13px;
+    height: 9px;
+    top: 26px;
+    left: 59px;
+  }
+  
+  .logistics-manager .group-57 {
+    position: absolute;
+    width: 118px;
+    height: 17px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  .logistics-manager .text-wrapper-24 {
+    position: absolute;
+    width: 98px;
+    top: 0;
+    left: 18px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #2b2b2b;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .rectangle-11 {
+    width: 15px;
+    height: 11px;
+    top: 5px;
+    background-color: #feaa48;
+    position: absolute;
+    left: 0;
+  }
+  
+  .logistics-manager .group-58 {
+    position: absolute;
+    width: 172px;
+    height: 22px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .group-59 {
+    position: relative;
+    width: 174px;
+    height: 22px;
+  }
+  
+  .logistics-manager .text-wrapper-25 {
+    position: absolute;
+    width: 172px;
+    top: 0;
+    left: 0;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #292d32;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-60 {
+    position: absolute;
+    width: 884px;
+    height: 28px;
+    top: 149px;
+    left: 31px;
+  }
+  
+  .logistics-manager .vector-9 {
+    position: absolute;
+    width: 249px;
+    height: 14px;
+    top: 0;
+    left: 212px;
+  }
+  
+  .logistics-manager .group-61 {
+    position: absolute;
+    width: 884px;
+    height: 28px;
+    top: 117px;
+    left: 31px;
+  }
+  
+  .logistics-manager .overlap-group-8 {
+    position: relative;
+    height: 28px;
+  }
+  
+  .logistics-manager .rectangle-12 {
+    position: absolute;
+    width: 760px;
+    height: 14px;
+    top: 7px;
+    left: 16px;
+    background-color: #e9eaeb;
+    border-radius: 10px;
+  }
+  
+  .logistics-manager .rectangle-13 {
+    position: absolute;
+    width: 162px;
+    height: 14px;
+    top: 7px;
+    left: 0;
+    background-color: #4169ff;
+    border-radius: 10px 0px 0px 10px;
+  }
+  
+  .logistics-manager .vector-10 {
+    position: absolute;
+    width: 250px;
+    height: 14px;
+    top: 7px;
+    left: 162px;
+  }
+  
+  .logistics-manager .group-62 {
+    position: absolute;
+    width: 29px;
+    height: 27px;
+    top: 1px;
+    left: 141px;
+  }
+  
+  .logistics-manager .group-63 {
+    position: absolute;
+    width: 29px;
+    height: 27px;
+    top: 0;
+    left: 405px;
+  }
+  
+  .logistics-manager .text-wrapper-26 {
+    position: absolute;
+    width: 99px;
+    top: 5px;
+    left: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #2b2b2b;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-64 {
+    position: absolute;
+    width: 883px;
+    height: 27px;
+    top: 85px;
+    left: 31px;
+  }
+  
+  .logistics-manager .text-wrapper-27 {
+    position: absolute;
+    width: 90px;
+    top: 5px;
+    left: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #2b2b2b;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-65 {
+    position: absolute;
+    width: 775px;
+    height: 27px;
+    top: 0;
+    left: 107px;
+  }
+  
+  .logistics-manager .rectangle-14 {
+    position: absolute;
+    width: 761px;
+    height: 14px;
+    top: 6px;
+    left: 14px;
+    background-color: #e9eaeb;
+    border-radius: 10px;
+  }
+  
+  .logistics-manager .rectangle-15 {
+    position: absolute;
+    width: 115px;
+    height: 14px;
+    top: 6px;
+    left: 0;
+    background-color: #4169ff;
+    border-radius: 10px 0px 0px 10px;
+  }
+  
+  .logistics-manager .vector-11 {
+    position: absolute;
+    width: 137px;
+    height: 14px;
+    top: 6px;
+    left: 115px;
+  }
+  
+  .logistics-manager .group-66 {
+    position: absolute;
+    width: 29px;
+    height: 27px;
+    top: 0;
+    left: 101px;
+  }
+  
+  .logistics-manager .group-67 {
+    position: absolute;
+    width: 29px;
+    height: 27px;
+    top: 0;
+    left: 229px;
+  }
+  
+  .logistics-manager .vector-wrapper {
+    position: absolute;
+    width: 32px;
+    height: 28px;
+    top: 14px;
+    left: 809px;
+    background-color: var(--collection-1-white);
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px #00000033;
+  }
+  
+  .logistics-manager .vector-12 {
+    position: absolute;
+    width: 7px;
+    height: 11px;
+    top: 9px;
+    left: 13px;
+  }
+  
+  .logistics-manager .group-68 {
+    position: absolute;
+    width: 32px;
+    height: 28px;
+    top: 14px;
+    left: 853px;
+    background-color: var(--collection-1-white);
+    border-radius: 3px;
+    box-shadow: 0px 1px 3.6px #00000033;
+  }
+  
+  .logistics-manager .overlap-14 {
+    position: absolute;
+    width: 1301px;
+    height: 305px;
+    top: 634px;
+    left: 107px;
+  }
+  
+  .logistics-manager .group-69 {
+    position: absolute;
+    width: 1301px;
+    height: 305px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .div-3 {
+    position: absolute;
+    width: 425px;
+    height: 305px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .overlap-15 {
+    position: relative;
+    width: 445px;
+    height: 305px;
+  }
+  
+  .logistics-manager .group-70 {
+    position: absolute;
+    width: 445px;
+    height: 305px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .overlap-group-9 {
+    position: relative;
+    width: 423px;
+    height: 305px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #d3d3d3;
+  }
+  
+  .logistics-manager .overlap-16 {
+    position: absolute;
+    width: 363px;
+    height: 155px;
+    top: 100px;
+    left: 41px;
+  }
+  
+  .logistics-manager .group-71 {
+    position: absolute;
+    width: 31px;
+    height: 150px;
+    top: 5px;
+    left: 21px;
+    background-image: url(./img/vector-11.svg);
+    background-size: 100% 100%;
+  }
+  
+  .logistics-manager .group-72 {
+    position: absolute;
+    width: 31px;
+    height: 114px;
+    top: 41px;
+    left: 96px;
+  }
+  
+  .logistics-manager .group-73 {
+    position: absolute;
+    width: 31px;
+    height: 99px;
+    top: 57px;
+    left: 171px;
+  }
+  
+  .logistics-manager .group-74 {
+    position: absolute;
+    width: 31px;
+    height: 74px;
+    top: 81px;
+    left: 245px;
+  }
+  
+  .logistics-manager .group-75 {
+    position: absolute;
+    width: 31px;
+    height: 57px;
+    top: 99px;
+    left: 320px;
+  }
+  
+  .logistics-manager .group-76 {
+    position: absolute;
+    width: 363px;
+    height: 155px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .line {
+    width: 362px;
+    height: 1px;
+    top: 154px;
+    left: 1px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .logistics-manager .line-2 {
+    width: 1px;
+    height: 155px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .logistics-manager .text-wrapper-28 {
+    position: absolute;
+    width: 25px;
+    top: 241px;
+    left: 8px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #47494c;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .text-wrapper-29 {
+    position: absolute;
+    width: 49px;
+    top: 260px;
+    left: 57px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #343434;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .text-wrapper-30 {
+    position: absolute;
+    width: 54px;
+    top: 260px;
+    left: 122px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #343434;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .text-wrapper-31 {
+    position: absolute;
+    width: 54px;
+    top: 260px;
+    left: 196px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #343434;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .text-wrapper-32 {
+    position: absolute;
+    width: 54px;
+    top: 260px;
+    left: 272px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #343434;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .text-wrapper-33 {
+    position: absolute;
+    width: 54px;
+    top: 260px;
+    left: 347px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #343434;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .text-wrapper-34 {
+    width: 25px;
+    top: 212px;
+    left: 8px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #47494c;
+    font-size: 12px;
+    text-align: right;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .text-wrapper-35 {
+    width: 23px;
+    top: 184px;
+    left: 10px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #47494c;
+    font-size: 12px;
+    text-align: right;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .text-wrapper-36 {
+    width: 30px;
+    top: 155px;
+    left: 2px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #47494c;
+    font-size: 12px;
+    text-align: right;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .text-wrapper-37 {
+    width: 30px;
+    top: 127px;
+    left: 2px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #47494c;
+    font-size: 12px;
+    text-align: right;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .text-wrapper-38 {
+    width: 23px;
+    top: 99px;
+    left: 10px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #47494c;
+    font-size: 12px;
+    text-align: right;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .text-wrapper-39 {
+    position: absolute;
+    width: 196px;
+    top: 15px;
+    left: 34px;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #292d32;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-77 {
+    position: absolute;
+    width: 83px;
+    height: 23px;
+    top: 187px;
+    left: 236px;
+  }
+  
+  .logistics-manager .overlap-17 {
+    position: relative;
+    height: 23px;
+  }
+  
+  .logistics-manager .rectangle-16 {
+    width: 78px;
+    height: 23px;
+    left: 6px;
+    position: absolute;
+    top: 0;
+    background-color: var(--collection-1-white);
+    border-radius: 3px;
+    box-shadow: 0px 2px 1.9px #0000001a;
+  }
+  
+  .logistics-manager .polygon-2 {
+    top: 7px;
+    position: absolute;
+    width: 6px;
+    height: 10px;
+    left: 0;
+  }
+  
+  .logistics-manager .group-78 {
+    width: 73px;
+    height: 15px;
+    top: 4px;
+    position: absolute;
+    left: 10px;
+  }
+  
+  .logistics-manager .text-wrapper-40 {
+    position: absolute;
+    width: 55px;
+    top: 0;
+    left: 15px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #2b2b2b;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .rectangle-17 {
+    position: absolute;
+    width: 10px;
+    height: 8px;
+    top: 3px;
+    left: 0;
+    background-color: #6787ff;
+  }
+  
+  .logistics-manager .group-79 {
+    position: absolute;
+    width: 425px;
+    height: 305px;
+    top: 0;
+    left: 878px;
+  }
+  
+  .logistics-manager .group-80 {
+    position: absolute;
+    width: 31px;
+    height: 150px;
+    top: 5px;
+    left: 21px;
+    background-image: url(./img/vector-4.svg);
+    background-size: 100% 100%;
+  }
+  
+  .logistics-manager .text-wrapper-41 {
+    position: absolute;
+    width: 38px;
+    top: 260px;
+    left: 57px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #343434;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .text-wrapper-42 {
+    position: absolute;
+    width: 44px;
+    top: 260px;
+    left: 125px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #343434;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .text-wrapper-43 {
+    position: absolute;
+    width: 54px;
+    top: 260px;
+    left: 198px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #343434;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .text-wrapper-44 {
+    position: absolute;
+    width: 48px;
+    top: 260px;
+    left: 282px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #343434;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .text-wrapper-45 {
+    position: absolute;
+    width: 35px;
+    top: 260px;
+    left: 360px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #343434;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .text-wrapper-46 {
+    position: absolute;
+    width: 230px;
+    top: 16px;
+    left: 17px;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #292d32;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .component-3 {
+    position: absolute;
+    width: 423px;
+    height: 305px;
+    top: 0;
+    left: 439px;
+  }
+  
+  .logistics-manager .overlap-18 {
+    position: relative;
+    width: 435px;
+    height: 305px;
+  }
+  
+  .logistics-manager .group-81 {
+    position: absolute;
+    width: 435px;
+    height: 305px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .overlap-19 {
+    position: absolute;
+    width: 373px;
+    height: 173px;
+    top: 87px;
+    left: 41px;
+  }
+  
+  .logistics-manager .group-82 {
+    position: absolute;
+    width: 348px;
+    height: 150px;
+    top: 23px;
+    left: 13px;
+  }
+  
+  .logistics-manager .group-83 {
+    position: absolute;
+    width: 31px;
+    height: 150px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/vector-13.svg);
+    background-size: 100% 100%;
+  }
+  
+  .logistics-manager .group-84 {
+    position: absolute;
+    width: 31px;
+    height: 114px;
+    top: 36px;
+    left: 63px;
+  }
+  
+  .logistics-manager .group-85 {
+    position: absolute;
+    width: 31px;
+    height: 99px;
+    top: 51px;
+    left: 127px;
+  }
+  
+  .logistics-manager .vector-13 {
+    position: absolute;
+    width: 31px;
+    height: 74px;
+    top: 75px;
+    left: 190px;
+  }
+  
+  .logistics-manager .vector-14 {
+    position: absolute;
+    width: 31px;
+    height: 74px;
+    top: 74px;
+    left: 317px;
+  }
+  
+  .logistics-manager .group-86 {
+    position: absolute;
+    width: 31px;
+    height: 57px;
+    top: 93px;
+    left: 254px;
+  }
+  
+  .logistics-manager .group-87 {
+    position: absolute;
+    width: 373px;
+    height: 173px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .line-3 {
+    position: absolute;
+    width: 372px;
+    height: 1px;
+    top: 172px;
+    left: 1px;
+    object-fit: cover;
+  }
+  
+  .logistics-manager .line-4 {
+    position: absolute;
+    width: 1px;
+    height: 173px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .logistics-manager .text-wrapper-47 {
+    width: 25px;
+    top: 246px;
+    left: 8px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #47494c;
+    font-size: 12px;
+    text-align: right;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .text-wrapper-48 {
+    width: 25px;
+    top: 217px;
+    left: 8px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #47494c;
+    font-size: 12px;
+    text-align: right;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .text-wrapper-49 {
+    width: 23px;
+    top: 189px;
+    left: 10px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #47494c;
+    font-size: 12px;
+    text-align: right;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .text-wrapper-50 {
+    width: 30px;
+    top: 161px;
+    left: 2px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #47494c;
+    font-size: 12px;
+    text-align: right;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .text-wrapper-51 {
+    width: 30px;
+    top: 132px;
+    left: 2px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #47494c;
+    font-size: 12px;
+    text-align: right;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .text-wrapper-52 {
+    width: 23px;
+    top: 104px;
+    left: 10px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #47494c;
+    font-size: 12px;
+    text-align: right;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .text-wrapper-53 {
+    position: absolute;
+    width: 208px;
+    top: 15px;
+    left: 21px;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #292d32;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-88 {
+    position: absolute;
+    width: 66px;
+    height: 35px;
+    top: 153px;
+    left: 75px;
+  }
+  
+  .logistics-manager .rectangle-18 {
+    width: 61px;
+    height: 35px;
+    left: 5px;
+    position: absolute;
+    top: 0;
+    background-color: var(--collection-1-white);
+    border-radius: 3px;
+    box-shadow: 0px 2px 1.9px #0000001a;
+  }
+  
+  .logistics-manager .polygon-3 {
+    top: 12px;
+    position: absolute;
+    width: 6px;
+    height: 10px;
+    left: 0;
+  }
+  
+  .logistics-manager .group-89 {
+    width: 55px;
+    height: 29px;
+    top: 2px;
+    position: absolute;
+    left: 10px;
+  }
+  
+  .logistics-manager .text-wrapper-54 {
+    position: absolute;
+    width: 51px;
+    top: 15px;
+    left: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #2b2b2b;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .text-wrapper-55 {
+    position: absolute;
+    width: 32px;
+    top: 0;
+    left: 15px;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #2b2b2b;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-90 {
+    position: absolute;
+    width: 86px;
+    height: 18px;
+    top: 48px;
+    left: 23px;
+  }
+  
+  .logistics-manager .text-wrapper-56 {
+    position: absolute;
+    width: 61px;
+    top: 0;
+    left: 23px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #2b2b2b;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .rectangle-19 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    top: 4px;
+    left: 0;
+    background-color: #6787ff;
+  }
+  
+  .logistics-manager .text-wrapper-57 {
+    position: absolute;
+    width: 38px;
+    top: 266px;
+    left: 54px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #343434;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .text-wrapper-58 {
+    position: absolute;
+    width: 37px;
+    top: 266px;
+    left: 116px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #343434;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .text-wrapper-59 {
+    position: absolute;
+    width: 47px;
+    top: 266px;
+    left: 176px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #343434;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .text-wrapper-60 {
+    position: absolute;
+    width: 39px;
+    top: 266px;
+    left: 246px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #343434;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .text-wrapper-61 {
+    position: absolute;
+    width: 37px;
+    top: 266px;
+    left: 309px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #343434;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .text-wrapper-62 {
+    position: absolute;
+    width: 35px;
+    top: 266px;
+    left: 369px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #343434;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .union-4 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: -258px;
+    left: 100px;
+    object-fit: cover;
+  }
+  
+  .logistics-manager .text-wrapper-63 {
+    position: absolute;
+    width: 33px;
+    top: 48px;
+    left: 916px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #2b2b2b;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .rectangle-20 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    top: 51px;
+    left: 894px;
+    background-color: #6787ff;
+  }
+  
+  .logistics-manager .group-91 {
+    position: absolute;
+    width: 315px;
+    height: 472px;
+    top: 95px;
+    left: 1093px;
+  }
+  
+  .logistics-manager .overlap-20 {
+    position: relative;
+    width: 317px;
+    height: 472px;
+  }
+  
+  .logistics-manager .group-92 {
+    position: absolute;
+    width: 317px;
+    height: 472px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .overlap-21 {
+    position: relative;
+    height: 472px;
+  }
+  
+  .logistics-manager .rectangle-21 {
+    position: absolute;
+    width: 315px;
+    height: 472px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #d3d3d3;
+  }
+  
+  .logistics-manager .text-wrapper-64 {
+    position: absolute;
+    width: 136px;
+    top: 20px;
+    left: 14px;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #60656b;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-93 {
+    position: absolute;
+    width: 187px;
+    height: 182px;
+    top: 68px;
+    left: 66px;
+  }
+  
+  .logistics-manager .overlap-group-10 {
+    position: relative;
+    width: 188px;
+    height: 183px;
+  }
+  
+  .logistics-manager .group-94 {
+    position: absolute;
+    width: 94px;
+    height: 19px;
+    top: 72px;
+    left: 94px;
+  }
+  
+  .logistics-manager .group-95 {
+    position: absolute;
+    width: 186px;
+    height: 169px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .group-96 {
+    position: absolute;
+    width: 144px;
+    height: 91px;
+    top: 91px;
+    left: 43px;
+    background-image: url(./img/component-57.svg);
+    background-size: 100% 100%;
+  }
+  
+  .logistics-manager .group-97 {
+    position: absolute;
+    width: 48px;
+    height: 131px;
+    top: 139px;
+    left: 269px;
+  }
+  
+  .logistics-manager .text {
+    position: absolute;
+    width: 37px;
+    top: 0;
+    left: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--text-primary);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .text-wrapper-65 {
+    position: absolute;
+    width: 24px;
+    top: 123px;
+    left: 20px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .logistics-manager .group-98 {
+    position: absolute;
+    width: 41px;
+    height: 47px;
+    top: 44px;
+    left: 19px;
+  }
+  
+  .logistics-manager .text-wrapper-66 {
+    width: 39px;
+    top: 0;
+    left: 0;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 32px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-99 {
+    position: absolute;
+    width: 295px;
+    height: 69px;
+    top: 379px;
+    left: 10px;
+  }
+  
+  .logistics-manager .group-100 {
+    position: absolute;
+    width: 86px;
+    height: 69px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .text-wrapper-67 {
+    left: 0;
+    position: absolute;
+    width: 84px;
+    top: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--text-primary);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-101 {
+    position: absolute;
+    width: 40px;
+    height: 46px;
+    top: 23px;
+    left: 23px;
+  }
+  
+  .logistics-manager .text-wrapper-68 {
+    width: 38px;
+    top: 0;
+    left: 0;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 32px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-102 {
+    position: absolute;
+    width: 66px;
+    height: 69px;
+    top: 0;
+    left: 115px;
+  }
+  
+  .logistics-manager .text-wrapper-69 {
+    width: 64px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--text-primary);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-103 {
+    position: absolute;
+    width: 40px;
+    height: 46px;
+    top: 23px;
+    left: 13px;
+  }
+  
+  .logistics-manager .group-104 {
+    position: absolute;
+    width: 87px;
+    height: 69px;
+    top: 0;
+    left: 210px;
+  }
+  
+  .logistics-manager .text-wrapper-70 {
+    width: 85px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--text-primary);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .group-105 {
+    position: absolute;
+    width: 238px;
+    height: 52px;
+    top: 281px;
+    left: 46px;
+  }
+  
+  .logistics-manager .group-106 {
+    position: absolute;
+    width: 113px;
+    height: 22px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .text-wrapper-71 {
+    left: 27px;
+    position: absolute;
+    width: 84px;
+    top: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--text-primary);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .ellipse {
+    background-color: #c1dcff;
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 1px;
+    left: 0;
+    border-radius: 9.5px;
+  }
+  
+  .logistics-manager .group-107 {
+    position: absolute;
+    width: 92px;
+    height: 22px;
+    top: 30px;
+    left: 77px;
+  }
+  
+  .logistics-manager .text-wrapper-72 {
+    width: 63px;
+    left: 27px;
+    position: absolute;
+    top: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--text-primary);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .ellipse-2 {
+    background-color: #f6b654;
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 1px;
+    left: 0;
+    border-radius: 9.5px;
+  }
+  
+  .logistics-manager .group-108 {
+    position: absolute;
+    width: 113px;
+    height: 22px;
+    top: 0;
+    left: 125px;
+  }
+  
+  .logistics-manager .group-109 {
+    position: relative;
+    width: 115px;
+    height: 22px;
+  }
+  
+  .logistics-manager .text-wrapper-73 {
+    width: 86px;
+    left: 27px;
+    position: absolute;
+    top: 0;
+    font-family: "Open Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--text-primary);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .logistics-manager .ellipse-3 {
+    background-color: #496ef6;
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 1px;
+    left: 0;
+    border-radius: 9.5px;
+  }
+  
+  .logistics-manager .line-5 {
+    width: 289px;
+    height: 1px;
+    top: 356px;
+    left: 10px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .logistics-manager .group-110 {
+    position: absolute;
+    width: 134px;
+    height: 42px;
+    top: 579px;
+    left: 875px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 0.5px solid;
+    border-color: #292d32;
+  }
+  
+  .logistics-manager .group-111 {
+    position: relative;
+    width: 114px;
+    height: 20px;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .logistics-manager .vector-15 {
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logistics-manager .text-wrapper-74 {
+    position: absolute;
+    top: 0;
+    left: 31px;
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #333333;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
