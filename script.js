@@ -70,3 +70,23 @@ const ctx = document.getElementById('myChart1');
       
     }
   });
+
+
+  const pie = document.getElementById('piech')
+
+  new Chart("piech", {
+    type: "pie",
+    data: {
+      labels: ["in progress","pending","completed"],
+      datasets: [{
+        backgroundColor: ["red","blue","green"],
+        data: [70,20,10]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: "World Wide Wine Production 2018"
+      }
+    }
+  });
