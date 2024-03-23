@@ -1,13 +1,13 @@
-*{
+* {
   box-sizing: border-box;
 }
-.title{
-    font-size: 20px;
-    color: #333;
-    font-weight: bold;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: 5px;
+.title {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 5px;
 }
 
 .container {
@@ -15,17 +15,14 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   padding: 20px;
-
-
 }
-.upper{
+.upper {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-
 }
-.right{
+.right {
   padding-right: 30px;
 }
 .box .group {
@@ -44,7 +41,6 @@
   height: 69px;
   top: 17px;
   left: 18px;
-  
 }
 
 .box .text-wrapper {
@@ -91,7 +87,6 @@
   border-radius: 10px;
 }
 
-
 .box .rectangle {
   width: 315px;
   height: 472px;
@@ -112,16 +107,21 @@
   border: 1px solid;
   border-color: #d3d3d3;
 }
-.lower{
+#progbar {
+  display: block;
+  box-sizing: border-box;
+  height: 200px;
+  width: 958px;
+}
+.lower {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 20px;
   justify-items: center;
-
 }
 .box .stats {
   width: 423px;
-  height : 305px;
+  height: 305px;
   top: 0;
   left: 0;
   background-color: #ffffffff;
@@ -133,15 +133,14 @@
   .container {
     grid-template-columns: 1fr 1fr;
   }
-  .upper{
+  .upper {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
     flex-direction: column;
-  
   }
-  .lower{
+  .lower {
     display: grid;
     grid-template-columns: 1fr;
     padding: 20px;
@@ -153,25 +152,23 @@
   .right {
     padding-bottom: 12px;
   }
-  
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px) {
   .container {
     grid-template-columns: 1fr;
     width: 32% !important;
   }
-  .upper{
+  .upper {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
     flex-direction: column;
-  
   }
-  .box{
+  .box {
     width: 45px;
   }
-  .lower{
+  .lower {
     display: grid;
     grid-template-columns: 1fr;
     padding: 20px;
