@@ -21,7 +21,7 @@
   <div class="root">
     <div class="upper">
       <div class="right">
-        <div class="container">
+        <div class="container cgroup">
 
           <div class="box">
             <div class="group">
@@ -92,7 +92,7 @@
 
 
         </div>
-        <div class="box">
+        <div class="box tbox">
           <div class="timelines">
             <div>
               <canvas id="progbar" height="150px" width="700px"></canvas>
@@ -101,7 +101,7 @@
           </div>
         </div>
       </div>
-      <div class="box">
+      <div class="box pbox">
         <div class="rectangle">
           <div>
             <canvas id="piech"></canvas>
@@ -109,26 +109,42 @@
         </div>
       </div>
     </div>
+
+    <div class="rectangular-buttons">
+      <button class="calendar-button" id="calendarButton"><i class="fas fa-calendar"></i> Calendar</button>
+      <button class="button active">Button 1</button>
+      <button class="button">Button 2</button>
+      <button class="button">Button 3</button>
+      <button class="button">Button 4</button>
+    </div>
+  </div>
     <div class="lower">
       <div class="box">
         <div class="stats">
           <div>
-            <canvas id="myChart1"></canvas>
+            <canvas class="canvas" id="myChart1"></canvas>
           </div>
         </div>
       </div>
       <div class="box">
         <div class="stats">
           <div>
-            <canvas id="myChart2"></canvas>
+            <canvas class="canvas" id="myChart2"></canvas>
           </div>
         </div>
       </div>
       <div class="box">
         <div class="stats">
           <div>
-            <canvas id="myChart3"></canvas>
+            <canvas class="canvas" id="myChart3"></canvas>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="box myChart4">
+      <div class="stats">
+        <div>
+          <canvas  class="canvas" id="myChart4"></canvas>
         </div>
       </div>
     </div>

@@ -43,7 +43,7 @@ new Chart(ctx, {
       },
       title: {
         display: true,
-        text: "World Wine Production 2018",
+        text: "Top Ordered Products",
       },
     },
   },
@@ -87,7 +87,7 @@ new Chart(ctx2, {
       },
       title: {
         display: true,
-        text: "World Wine Production 2018",
+        text: "Payment type Category",
       },
     },
   },
@@ -96,6 +96,49 @@ new Chart(ctx2, {
 const ctx3 = document.getElementById("myChart3");
 
 new Chart(ctx3, {
+  type: "bar",
+  data: {
+    labels: ["1 Day", "1-2 Day", "2-4 Day", "4-7 Day", "7 Day"],
+    datasets: [
+      {
+        label: "# of Votes",
+        data: [25, 20, 15, 10, 5],
+        borderWidth: 1,
+        backgroundColor: "blue",
+      },
+    ],
+  },
+  options: {
+    //   indexAxis:'y',
+    scales: {
+      x: {
+        grid: {
+          display: false,
+          drawBorder: false,
+        },
+      },
+      y: {
+        beginAtZero: true,
+        grid: {
+          display: false,
+          drawBorder: false,
+        },
+      },
+    },
+    plugins: {
+      legend: {
+        display: false,
+      },
+      title: {
+        display: true,
+        text: "Delivery Turnaround time",
+      },
+    },
+  },
+});
+const ctx4 = document.getElementById("myChart4");
+
+new Chart(ctx4, {
   type: "bar",
   data: {
     labels: ["1 Day", "1-2 Day", "2-4 Day", "4-7 Day", "7 Day"],
@@ -145,7 +188,7 @@ new Chart("piech", {
     labels: ["in progress", "pending", "completed"],
     datasets: [
       {
-        backgroundColor: ["red", "blue", "green"],
+        backgroundColor: ["#c1dcff", "#f6b654", "#007300"],
         data: [70, 20, 10],
       },
     ],
@@ -157,7 +200,7 @@ new Chart("piech", {
       },
       title: {
         display: true,
-        text: "World Wine Production 2018",
+        text: "Truck Delivering",
       },
     },
   },
