@@ -90,6 +90,8 @@
   left: 0;
   background-color: #e3e6ff;
   border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
 }
 
 
@@ -274,7 +276,7 @@
   
 }
   .cgroup{
-    margin-left: 311px !important;
+    margin-left: 300px !important;
     width: 68% !important;
     column-gap: 10px !important;
   }
@@ -288,21 +290,27 @@
   }
   .lower{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     padding: 20px;
-    margin-left: 30px;
+    margin-left: 40px;
     column-gap: 0px;
 
   }
   .lower .box{
     
-    width: 100px;
+    width: 200px;
+  }
+  #progbar{
+    width: 490px !important;
+    height: 200px !important;
   }
   .canvas{
-    width: 320px !important;
+    width: 420px !important;
+    height: 190px !important;
   }
   .lower .box .stats {
-    width: 330px;
+    width: 510px;
+    
   }
   .myChart4{
     display: none;
@@ -310,14 +318,23 @@
 
    .tbox{
     width: 50px !important;
-    margin-left: 315px !important;
+    margin-left: 300px !important;
+  }
+
+  .box .rectangle{
+    width:520px;
+  }
+  #piech{
+    width:300px !important;
+    height: 300px !important;
+    margin-left: 20%;
   }
 
   .pbox{
-    margin-left: 235px;
+    margin-left: 280px;
   }
 .timelines{
-  width: 617px !important;
+  width: 527px !important;
 } 
 
   .box .stats {
@@ -328,12 +345,23 @@
     padding-bottom: 12px;
   }
 
+  button{
+    height: 60px;
+  }
+
+  .calendar-button{
+    position: absolute;
+    top:1310px;
+    left: 75%;
+  }
+
   .rectangular-buttons {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-right: 0px;
-    width: 610px;
+    width: 530px;
+    height:140px;
     margin-left: 59px;
 }
 }
