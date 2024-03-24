@@ -174,18 +174,34 @@ new Chart(prog,{
         label:"pending",
         data:[15,15,30,15],
         backgroundColor:"blue",
+        // borderRadius:25,
+        borderWidth:1,
+        borderSkipped:false,
+        barPercentage:0.4,
+        categoryPercentage:0.8
       },
       {
         label:"In progress",
         data:[15,25,0,15],
-        backgroundColor:"yellow"
+        backgroundColor:"yellow",
+        // borderRadius:25,
+        borderWidth:1,
+        borderSkipped:false,
+        barPercentage:0.4,
+        categoryPercentage:0.8
       },
       {
         label:"completed",
         data:[50,0,86,20],
-        backgroundColor:"green"
+        backgroundColor:"green",
+        // borderRadius:25,
+        borderWidth:1,
+        borderSkipped:false,
+        barPercentage:0.4,
+        categoryPercentage:0.8
       },
-    ]
+    ],
+  
   },
   options:{
     plugins: {
@@ -194,7 +210,7 @@ new Chart(prog,{
       },
       title: {
         display: true,
-        text: "World Wine Production 2018",
+        text: "Delivery Timelines",
       },
     },
     responsive: true,
@@ -209,6 +225,7 @@ new Chart(prog,{
         ticks:{
           display:false
         }
+        
       },
       y: {
         beginAtZero: true,
@@ -217,6 +234,7 @@ new Chart(prog,{
           display: false,
           drawBorder: false,
         },
+        
       },
     },
     
