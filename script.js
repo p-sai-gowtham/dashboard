@@ -21,11 +21,7 @@ new Chart(ctx, {
   },
   options: {
     //   indexAxis:'y',
-    legend: {display: false},
-    title: {
-      display: true,
-      text: "World Wine Production 2018"
-    },
+
     scales: {
       x: {
         grid: {
@@ -41,7 +37,15 @@ new Chart(ctx, {
         },
       },
     },
-    
+    plugins: {
+      legend: {
+        display: false,
+      },
+      title: {
+        display: true,
+        text: "World Wine Production 2018",
+      },
+    },
   },
 });
 
@@ -75,6 +79,15 @@ new Chart(ctx2, {
           display: false,
           drawBorder: false,
         },
+      },
+    },
+    plugins: {
+      legend: {
+        display: false,
+      },
+      title: {
+        display: true,
+        text: "World Wine Production 2018",
       },
     },
   },
@@ -112,6 +125,15 @@ new Chart(ctx3, {
         },
       },
     },
+    plugins: {
+      legend: {
+        display: false,
+      },
+      title: {
+        display: true,
+        text: "World Wine Production 2018",
+      },
+    },
   },
 });
 
@@ -129,53 +151,74 @@ new Chart("piech", {
     ],
   },
   options: {
-    title: {
-      display: true,
-      text: "World Wide Wine Production 2018",
+    plugins: {
+      legend: {
+        display: false,
+      },
+      title: {
+        display: true,
+        text: "World Wine Production 2018",
+      },
     },
   },
 });
 
 const prog = document.getElementById("progbar");
 
-new Chart(prog, {
-  type: "bar",
-  data: {
-    labels: ["1 Day", "1-2 Day", "2-4 Day", "4-7 Day", "7 Day"],
-    datasets: [
+new Chart(prog,{
+  type:'bar',
+  data:{
+    labels:["sagar","deepak","temp driver","demo driver"],
+    datasets :[
       {
-        label: "# of Votes",
-        data: [25, 20, 15, 10, 5],
-        borderWidth: 1,
-        backgroundColor: "blue",
+        label:"pending",
+        data:[15,15,30,15],
+        backgroundColor:"blue",
       },
-    ],
+      {
+        label:"In progress",
+        data:[15,25,0,15],
+        backgroundColor:"yellow"
+      },
+      {
+        label:"completed",
+        data:[50,0,86,20],
+        backgroundColor:"green"
+      },
+    ]
   },
-  options: {
-    
-    indexAxis: "y",
+  options:{
+    plugins: {
+      legend: {
+        display: false,
+      },
+      title: {
+        display: true,
+        text: "World Wine Production 2018",
+      },
+    },
+    responsive: true,
+    indexAxis:"y",
     scales: {
       x: {
+        stacked:true,
         grid: {
           display: false,
           drawBorder: false,
         },
-        ticks: {
-          display: false,
-        },
+        ticks:{
+          display:false
+        }
       },
       y: {
         beginAtZero: true,
+        stacked:true,
         grid: {
           display: false,
           drawBorder: false,
         },
       },
     },
-    legend: {display: false},
-    title: {
-      display: true,
-      text: "World Wine Production 2018"
-    }
-  },
-});
+    
+  }
+})
