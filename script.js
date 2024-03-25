@@ -12,10 +12,11 @@ new Chart(ctx, {
     ],
     datasets: [
       {
-        label: "# of Votes",
+        label: "Product",
         data: [25, 20, 15, 10, 5],
         borderWidth: 1,
         backgroundColor: "#6787ff",
+        barThickness: 30,
       },
     ],
   },
@@ -69,10 +70,11 @@ new Chart(ctx2, {
     labels: ["cash", "credit", "cheque", "online", "credit", "cash"],
     datasets: [
       {
-        label: "# of Votes",
+        label: "Category",
         data: [25, 20, 15, 10, 5, 12],
         borderWidth: 1,
         backgroundColor: "#6787ff",
+        barThickness: 30,
 
       },
     ],
@@ -122,10 +124,11 @@ new Chart(ctx3, {
     labels: ["1 Day", "1-2 Day", "2-4 Day", "4-7 Day", "7 Day"],
     datasets: [
       {
-        label: "# of Votes",
+        label: "Days",
         data: [25, 20, 15, 10, 5],
         borderWidth: 1,
         backgroundColor: "#6787ff",
+        barThickness: 30,
       },
     ],
   },
