@@ -44,6 +44,8 @@ new Chart(ctx, {
       title: {
         display: true,
         text: "Top Ordered Products",
+        position:"top",
+        align:"start"
       },
     },
   },
@@ -86,7 +88,7 @@ new Chart(ctx2, {
         display: true,
         position:"top",
         align:"start",
-        padding:50,
+        
         labels:{
           boxWidth:20,
         }
@@ -94,6 +96,8 @@ new Chart(ctx2, {
       title: {
         display: true,
         text: "Payment type Category",
+        position:"top",
+        align:"start"
       },
     },
   },
@@ -134,10 +138,19 @@ new Chart(ctx3, {
     plugins: {
       legend: {
         display: true,
+        position:"top",
+        align:"start",
+        
+        labels:{
+          boxWidth:20,
+        }
+        
       },
       title: {
         display: true,
         text: "Delivery Turnaround time",
+        position:"top",
+        align:"start"
       },
     },
   },
@@ -206,11 +219,14 @@ new Chart("piech", {
         position: "bottom",
         labels: {
           boxWidth: 20,
+          // useBorderRadius: true,
+          // borderRadius:25,
         },
       },
       title: {
         display: true,
         text: "Truck Delivering",
+        
       },
     },
   },
@@ -221,11 +237,11 @@ const prog = document.getElementById("progbar");
 new Chart(prog, {
   type: "bar",
   data: {
-    labels: ["sagar", "deepak", "temp driver", "demo driver"],
+    labels: ["sagar","driver","deepak", "temp driver", "demo driver"],
     datasets: [
       {
         label: "pending",
-        data: [15, 15, 30, 15],
+        data: [15,40, 15, 30, 15],
         backgroundColor: "blue",
         // borderRadius:25,
         borderWidth: 1,
@@ -235,7 +251,7 @@ new Chart(prog, {
       },
       {
         label: "In progress",
-        data: [15, 25, 0, 15],
+        data: [15,0, 25, 0, 15],
         backgroundColor: "yellow",
         // borderRadius:25,
         borderWidth: 1,
@@ -245,7 +261,7 @@ new Chart(prog, {
       },
       {
         label: "completed",
-        data: [50, 0, 86, 20],
+        data: [50, 60,0, 86, 20],
         backgroundColor: "green",
         // borderRadius:25,
         borderWidth: 1,
@@ -259,8 +275,8 @@ new Chart(prog, {
     plugins: {
       legend: {
         display: true,
-        position: "bottom",
-        align: "end",
+        position:"top",
+        align:"end",
         labels: {
           boxWidth: 20,
         },
@@ -268,6 +284,8 @@ new Chart(prog, {
       title: {
         display: true,
         text: "Delivery Timelines",
+        position:"top",
+        align:"start"
       },
     },
     responsive: true,
