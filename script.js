@@ -39,7 +39,17 @@ new Chart(ctx, {
     },
     plugins: {
       legend: {
-        display: false,
+        display: true,
+        
+        position:"top",
+        align:"start",
+        title:{
+          text:"products"
+        },
+        labels:{
+          boxWidth:20,
+        }
+
       },
       title: {
         display: true,
@@ -63,6 +73,7 @@ new Chart(ctx2, {
         data: [25, 20, 15, 10, 5, 12],
         borderWidth: 1,
         backgroundColor: "#6787ff",
+
       },
     ],
   },
