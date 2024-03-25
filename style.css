@@ -297,11 +297,13 @@
 
   .timelines {
     width: 617px !important;
+    height: 200px !important;
   }
 
   .box .stats {
     margin: 12px;
     height: 200px;
+    
   }
 
   .right {

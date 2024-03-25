@@ -293,6 +293,7 @@ new Chart(prog, {
         align:"end",
         labels: {
           boxWidth: 20,
+          
         },
       },
       title: {
