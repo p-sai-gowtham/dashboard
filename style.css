@@ -5,6 +5,9 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+.canvas{
+  padding:10px;
+}
 
 .title {
   font-size: 20px;

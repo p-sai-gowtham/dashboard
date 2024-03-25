@@ -222,7 +222,7 @@ new Chart("piech", {
     datasets: [
       {
         backgroundColor: ["#c1dcff", "#f6b654", "#496ef6"],
-        data: [70, 20, 10],
+        data: [20, 6, 31],
       },
     ],
   },
@@ -240,6 +240,9 @@ new Chart("piech", {
       title: {
         display: true,
         text: "Truck Delivering",
+        font:{
+          size:20
+        },
         
       },
     },
@@ -290,7 +293,7 @@ new Chart(prog, {
       legend: {
         display: true,
         position:"top",
-        align:"end",
+        align:"start",
         labels: {
           boxWidth: 20,
           
