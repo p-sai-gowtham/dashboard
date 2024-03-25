@@ -51,7 +51,9 @@
   left: 18px;
 
 }
-
+.canvas{
+  padding:10px;
+}
 .box .text-wrapper {
   position: absolute;
   width: 134px;
