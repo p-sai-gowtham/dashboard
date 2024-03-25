@@ -260,7 +260,7 @@ new Chart(prog, {
         // borderRadius:25,
         borderWidth: 1,
         borderSkipped: false,
-        barPercentage: 0.6,
+        barPercentage: 0.7,
         categoryPercentage: 0.8,
       },
       {
@@ -270,7 +270,7 @@ new Chart(prog, {
         // borderRadius:25,
         borderWidth: 1,
         borderSkipped: false,
-        barPercentage: 0.6,
+        barPercentage: 0.7,
         categoryPercentage: 0.8,
       },
       {
@@ -280,7 +280,7 @@ new Chart(prog, {
         // borderRadius:25,
         borderWidth: 1,
         borderSkipped: false,
-        barPercentage: 0.6,
+        barPercentage: 0.7,
         categoryPercentage: 0.8,
       },
     ],
