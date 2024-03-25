@@ -83,7 +83,13 @@ new Chart(ctx2, {
     },
     plugins: {
       legend: {
-        display: false,
+        display: true,
+        position:"top",
+        align:"start",
+        padding:50,
+        labels:{
+          boxWidth:20,
+        }
       },
       title: {
         display: true,
@@ -127,7 +133,7 @@ new Chart(ctx3, {
     },
     plugins: {
       legend: {
-        display: false,
+        display: true,
       },
       title: {
         display: true,
@@ -196,7 +202,11 @@ new Chart("piech", {
   options: {
     plugins: {
       legend: {
-        display: false,
+        display: true,
+        position: "bottom",
+        labels: {
+          boxWidth: 20,
+        },
       },
       title: {
         display: true,
@@ -208,48 +218,52 @@ new Chart("piech", {
 
 const prog = document.getElementById("progbar");
 
-new Chart(prog,{
-  type:'bar',
-  data:{
-    labels:["sagar","deepak","temp driver","demo driver"],
-    datasets :[
+new Chart(prog, {
+  type: "bar",
+  data: {
+    labels: ["sagar", "deepak", "temp driver", "demo driver"],
+    datasets: [
       {
-        label:"pending",
-        data:[15,15,30,15],
-        backgroundColor:"blue",
+        label: "pending",
+        data: [15, 15, 30, 15],
+        backgroundColor: "blue",
         // borderRadius:25,
-        borderWidth:1,
-        borderSkipped:false,
-        barPercentage:0.4,
-        categoryPercentage:0.8
+        borderWidth: 1,
+        borderSkipped: false,
+        barPercentage: 0.4,
+        categoryPercentage: 0.8,
       },
       {
-        label:"In progress",
-        data:[15,25,0,15],
-        backgroundColor:"yellow",
+        label: "In progress",
+        data: [15, 25, 0, 15],
+        backgroundColor: "yellow",
         // borderRadius:25,
-        borderWidth:1,
-        borderSkipped:false,
-        barPercentage:0.4,
-        categoryPercentage:0.8
+        borderWidth: 1,
+        borderSkipped: false,
+        barPercentage: 0.4,
+        categoryPercentage: 0.8,
       },
       {
-        label:"completed",
-        data:[50,0,86,20],
-        backgroundColor:"green",
+        label: "completed",
+        data: [50, 0, 86, 20],
+        backgroundColor: "green",
         // borderRadius:25,
-        borderWidth:1,
-        borderSkipped:false,
-        barPercentage:0.4,
-        categoryPercentage:0.8
+        borderWidth: 1,
+        borderSkipped: false,
+        barPercentage: 0.4,
+        categoryPercentage: 0.8,
       },
     ],
-  
   },
-  options:{
+  options: {
     plugins: {
       legend: {
-        display: false,
+        display: true,
+        position: "bottom",
+        align: "end",
+        labels: {
+          boxWidth: 20,
+        },
       },
       title: {
         display: true,
@@ -257,29 +271,26 @@ new Chart(prog,{
       },
     },
     responsive: true,
-    indexAxis:"y",
+    indexAxis: "y",
     scales: {
       x: {
-        stacked:true,
+        stacked: true,
         grid: {
           display: false,
           drawBorder: false,
         },
-        ticks:{
-          display:false
-        }
-        
+        ticks: {
+          display: false,
+        },
       },
       y: {
         beginAtZero: true,
-        stacked:true,
+        stacked: true,
         grid: {
           display: false,
           drawBorder: false,
         },
-        
       },
     },
-    
-  }
-})
+  },
+});
