@@ -1,5 +1,9 @@
 * {
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 .title {
@@ -123,6 +127,11 @@
   border-radius: 20px;
   border: 3px solid;
   border-color: #d3d3d3;
+  
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 
 }
 
@@ -195,6 +204,11 @@
 
 #piech {
   margin-bottom: 25px;
+  
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 .boarder {
@@ -207,6 +221,11 @@
 .data {
   display: flex;
   justify-content: space-around;
+  
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 .data h3 {
