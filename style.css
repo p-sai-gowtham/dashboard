@@ -247,7 +247,10 @@
     margin-left: 13px !important;
     width: 68% !important;
   }
-
+.canvasp{
+  height:200px !important; 
+  width:600px !important;
+}
   .upper {
     display: flex;
     justify-content: center;
